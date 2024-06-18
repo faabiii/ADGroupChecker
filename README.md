@@ -37,3 +37,18 @@ Navigieren Sie zum entpackten Verzeichnis und führen Sie die `ADGroupChecker.ex
 
 ```sh
 .\ADGroupChecker.exe
+```
+
+## Verwendung
+Beim Starten der Anwendung werden Sie aufgefordert, die folgenden Informationen einzugeben:
+
+1. Domain: Die Domäne Ihres Active Directory.
+2. LDAP-Pfad: Der LDAP-Pfad zum Durchsuchen der E-Mail-aktivierten Gruppen.
+3. Filestore-Pfad: Der Pfad zum Filestore, den Sie überprüfen möchten.
+
+### Beispiel:
+```sh
+Bitte geben Sie die Domain ein: mydomain.local
+Bitte geben Sie den LDAP-Pfad ein: LDAP://mydomain.local/DC=mydomain,DC=local
+Bitte geben Sie den Pfad zum Filestore ein: C:\
+```
