@@ -13,18 +13,29 @@ Idee von Chief Wiggum (https://www.fachinformatiker.de/profile/2162-chief-wiggum
 
 ## Voraussetzungen
 
-- .NET SDK 8.0 oder höher
+- Windows-Betriebssystem
 
 ## Installation
 
-### 1. .NET SDK installieren
+### 1. Download
 
-Stellen Sie sicher, dass das .NET SDK auf Ihrem System installiert ist. Sie können es von der [offiziellen .NET-Website](https://dotnet.microsoft.com/download) herunterladen und installieren.
+Laden Sie die neueste Version von der [Releases-Seite](https://github.com/faabiii/ADGroupChecker/releases) herunter. 
 
-### 2. Projekt klonen
+1. Gehen Sie zur [Releases-Seite](https://github.com/faabiii/ADGroupChecker/releases).
+2. Klicken Sie auf die neueste Version.
+3. Laden Sie die Datei `ADGroupChecker.zip` herunter.
 
-Klonen Sie das Repository:
+### 2. Entpacken
+
+Entpacken Sie die heruntergeladene ZIP-Datei an einen beliebigen Ort auf Ihrem PC.
+
+## Ausführung
+
+Navigieren Sie zum entpackten Verzeichnis und führen Sie die `ADGroupChecker.exe` aus:
+
+1. Öffnen Sie die Eingabeaufforderung oder PowerShell.
+2. Navigieren Sie zu dem Verzeichnis, in dem Sie die Datei entpackt haben.
+3. Führen Sie den folgenden Befehl aus:
 
 ```sh
-git clone https://github.com/faabiii/ADGroupChecker.git
-cd ADGroupChecker
+.\ADGroupChecker.exe
