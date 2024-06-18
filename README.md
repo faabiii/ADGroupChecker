@@ -8,8 +8,6 @@ Idee von Chief Wiggum (https://www.fachinformatiker.de/profile/2162-chief-wiggum
 
 - Liest E-Mail-aktivierte Gruppen (Verteilergruppen) aus dem Active Directory aus.
 - Überprüft den Filestore auf die Verwendung dieser Gruppen.
-- Zeigt eine Fortschrittsanzeige während der Überprüfung an.
-- Gibt die Ergebnisse in einer übersichtlichen Form aus.
 
 ## Voraussetzungen
 
